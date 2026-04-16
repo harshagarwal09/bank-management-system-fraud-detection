@@ -1,26 +1,31 @@
-# 🏦 Bank Management System with Fraud Detection
+# 🏦 Smart Bank Fraud Detection Web Application
 
-A Python + SQL based banking project that manages customer accounts and detects suspicious transactions.
+A real-world banking web application built using Python, SQLite, and Streamlit that allows account management, transactions, and fraud detection.
 
-## 📌 Features
+## 🚀 Features
 
-- Create new bank account  
+- Create new bank accounts  
 - Deposit money  
-- Store account details using SQLite database  
-- Detect fraudulent transactions for high-value deposits  
-- Display all customer accounts  
+- Withdraw money  
+- Detect suspicious high-value transactions  
+- Store account data in SQLite database  
+- Show customer account details  
+- Display full transaction history  
+- Interactive web dashboard using Streamlit  
 
 ## ⚙️ Technologies Used
 
 - Python  
 - SQLite  
+- Streamlit  
+- Pandas  
 - Git & GitHub  
 
 ## 🚨 Fraud Detection Logic
 
-Transactions above ₹50,000 are flagged as suspicious.
+Transactions above ₹50,000 are currently flagged as suspicious.
 
 ## ▶️ How to Run
 
 ```bash
-python src/bank.py
+streamlit run app.py
